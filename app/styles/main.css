@@ -24,3 +24,7 @@ html, body{
 .inline-button {
   float: left;
 }
+
+#btn-centered {
+	text-align: center;
+}
