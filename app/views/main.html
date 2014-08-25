@@ -1,7 +1,7 @@
-  <div id="turns-history" class="container-fluid" ng-style={'height':windowHeight/2}>
+  <div id="turns-history" class="container-fluid pre-scrollable" ng-style={'height':windowHeight/2}>
       <h1>{{turn.player}} {{turn.count}} {{turn.turnType}}</h1>
-    <ul ng-repeat="turn in turns track by $index">
-      <li>{{turn.player}} {{turn.count}} {{turn.turnType}}</li>
+    <ul ng-repeat="turn in turns track by $index" class="turns-list">
+      <li ng-style="turnStyle(turn)">{{turn.player}} {{turn.count}} {{turn.turnType}}</li>
     </ul>
   </div>
 

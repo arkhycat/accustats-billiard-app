@@ -45,4 +45,12 @@ angular.module('accustatsBilliardAppApp')
       $scope.turn = new CreateTurn();
       $scope.turn.setPlayer(nextPlayer);
     };
+
+    $scope.turnStyle = function (turn) {
+      var backgroundColors = ['#cccccc', '#00cc00'];
+      var style = {
+        'background-color': backgroundColors[turn.player]
+      };
+      return style;
+    };
   });

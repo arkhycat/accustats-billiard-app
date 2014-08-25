@@ -28,3 +28,8 @@ html, body{
 #btn-centered {
 	text-align: center;
 }
+
+.turns-list {
+  margin: 0;
+  list-style-type: none;
+}
