@@ -53,4 +53,8 @@ angular.module('accustatsBilliardAppApp')
       };
       return style;
     };
+
+    $scope.turnToText = function (turn) {
+      return $scope.players[turn.player] + ' ' + $scope.turnTypes[turn.turnType] + ' ' + turn.count;
+    }
   });
