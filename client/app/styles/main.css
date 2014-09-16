@@ -1,0 +1,36 @@
+html, body{
+    width: 100%;
+}
+
+#turns-history {
+  display: block;
+}
+
+#controls {
+  display: block;
+  background-color:green;
+}
+
+#balls-count-input {
+  font-size: 90px;
+  height: 10%;
+  width: 110px;
+}
+
+#turn-stats-form {
+  padding: 20px;
+}
+
+.inline-button {
+  float: left;
+}
+
+#btn-centered {
+	text-align: center;
+}
+
+.turns-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

@@ -1,0 +1,232 @@
+Searching 16926 files for "MainCtrl"
+
+/home/venefica/accustats-billiard-app/client/app/scripts/app.js:
+   23        .when('/', {
+   24          templateUrl: 'views/tournament.html',
+   25:         controller: 'MainCtrl'
+   26        })
+   27        .when('/about', {
+
+/home/venefica/accustats-billiard-app/client/app/scripts/controllers/tournament.js:
+    3  /**
+    4   * @ngdoc function
+    5:  * @name accustatsBilliardAppApp.controller:MainCtrl
+    6   * @description
+    7:  * # MainCtrl
+    8   * Controller of the accustatsBilliardAppApp
+    9   */
+   ..
+   15      }]);
+   16  
+   17:   accustatsBilliardApp.controller('MainCtrl', ['$scope', '$window', 'turns', function ($scope, $window, turns) {
+   18  
+   19      $scope.windowHeight = $window.innerHeight;
+
+/home/venefica/accustats-billiard-app/client/bower_components/angular-route/angular-route.js:
+  680               animations="true" fixBase="true">
+  681        <file name="index.html">
+  682:         <div ng-controller="MainCtrl as main">
+  683            Choose:
+  684            <a href="Book/Moby">Moby</a> |
+  ...
+  777                $locationProvider.html5Mode(true);
+  778            }])
+  779:           .controller('MainCtrl', ['$route', '$routeParams', '$location',
+  780              function($route, $routeParams, $location) {
+  781                this.$route = $route;
+
+/home/venefica/accustats-billiard-app/client/bower_components/angular/Find Results:
+    1: Searching 18979 files for "MainCtrl"
+    2  
+    3  /home/venefica/accustats-billiard-app/client/app/scripts/controllers/tournament.js:
+    4      3  /**
+    5      4   * @ngdoc function
+    6:     5:  * @name accustatsBilliardAppApp.controller:MainCtrl
+    7      6   * @description
+    8:     7:  * # MainCtrl
+    9      8   * Controller of the accustatsBilliardAppApp
+   10      9   */
+   ..
+   13   7160     <example>
+   14   7161       <file name="index.html">
+   15:  7162:        <div ng-controller="MainCtrl">
+   16   7163           <p>$document title: <b ng-bind="title"></b></p>
+   17   7164           <p>window.document title: <b ng-bind="windowTitle"></b></p>
+   ..
+   19   7166       </file>
+   20   7167       <file name="script.js">
+   21:  7168:        function MainCtrl($scope, $document) {
+   22   7169           $scope.title = $document[0].title;
+   23   7170           $scope.windowTitle = angular.element(window.document)[0].title;
+   ..
+   26    680               animations="true" fixBase="true">
+   27    681        <file name="index.html">
+   28:   682:         <div ng-controller="MainCtrl as main">
+   29    683            Choose:
+   30    684            <a href="Book/Moby">Moby</a> |
+   ..
+   32    777                $locationProvider.html5Mode(true);
+   33    778            }])
+   34:   779:           .controller('MainCtrl', ['$route', '$routeParams', '$location',
+   35    780              function($route, $routeParams, $location) {
+   36    781                this.$route = $route;
+   ..
+   39   16952     <example>
+   40   16953       <file name="index.html">
+   41:  16954:        <div ng-controller="MainCtrl">
+   42   16955           <p>$document title: <b ng-bind="title"></b></p>
+   43   16956           <p>window.document title: <b ng-bind="windowTitle"></b></p>
+   ..
+   45   16958       </file>
+   46   16959       <file name="script.js">
+   47:  16960:        function MainCtrl($scope, $document) {
+   48   16961           $scope.title = $document[0].title;
+   49   16962           $scope.windowTitle = angular.element(window.document)[0].title;
+   ..
+   51  
+   52  
+   53: Searching 18979 files for "MainCtrl"
+   54  
+   55  /home/venefica/accustats-billiard-app/client/app/scripts/controllers/tournament.js:
+   56      3  /**
+   57      4   * @ngdoc function
+   58:     5:  * @name accustatsBilliardAppApp.controller:MainCtrl
+   59      6   * @description
+   60:     7:  * # MainCtrl
+   61      8   * Controller of the accustatsBilliardAppApp
+   62      9   */
+   ..
+   65   7160     <example>
+   66   7161       <file name="index.html">
+   67:  7162:        <div ng-controller="MainCtrl">
+   68   7163           <p>$document title: <b ng-bind="title"></b></p>
+   69   7164           <p>window.document title: <b ng-bind="windowTitle"></b></p>
+   ..
+   71   7166       </file>
+   72   7167       <file name="script.js">
+   73:  7168:        function MainCtrl($scope, $document) {
+   74   7169           $scope.title = $document[0].title;
+   75   7170           $scope.windowTitle = angular.element(window.document)[0].title;
+   ..
+   78    680               animations="true" fixBase="true">
+   79    681        <file name="index.html">
+   80:   682:         <div ng-controller="MainCtrl as main">
+   81    683            Choose:
+   82    684            <a href="Book/Moby">Moby</a> |
+   ..
+   84    777                $locationProvider.html5Mode(true);
+   85    778            }])
+   86:   779:           .controller('MainCtrl', ['$route', '$routeParams', '$location',
+   87    780              function($route, $routeParams, $location) {
+   88    781                this.$route = $route;
+   ..
+   91   16952     <example>
+   92   16953       <file name="index.html">
+   93:  16954:        <div ng-controller="MainCtrl">
+   94   16955           <p>$document title: <b ng-bind="title"></b></p>
+   95   16956           <p>window.document title: <b ng-bind="windowTitle"></b></p>
+   ..
+   97   16958       </file>
+   98   16959       <file name="script.js">
+   99:  16960:        function MainCtrl($scope, $document) {
+  100   16961           $scope.title = $document[0].title;
+  101   16962           $scope.windowTitle = angular.element(window.document)[0].title;
+  ...
+  103  
+  104  
+  105: Searching 18979 files for "MainCtrl"
+  106  
+  107  /home/venefica/accustats-billiard-app/client/app/scripts/controllers/tournament.js:
+  108      3  /**
+  109      4   * @ngdoc function
+  110:     5:  * @name accustatsBilliardAppApp.controller:MainCtrl
+  111      6   * @description
+  112:     7:  * # MainCtrl
+  113      8   * Controller of the accustatsBilliardAppApp
+  114      9   */
+  ...
+  117   7160     <example>
+  118   7161       <file name="index.html">
+  119:  7162:        <div ng-controller="MainCtrl">
+  120   7163           <p>$document title: <b ng-bind="title"></b></p>
+  121   7164           <p>window.document title: <b ng-bind="windowTitle"></b></p>
+  ...
+  123   7166       </file>
+  124   7167       <file name="script.js">
+  125:  7168:        function MainCtrl($scope, $document) {
+  126   7169           $scope.title = $document[0].title;
+  127   7170           $scope.windowTitle = angular.element(window.document)[0].title;
+  ...
+  130    680               animations="true" fixBase="true">
+  131    681        <file name="index.html">
+  132:   682:         <div ng-controller="MainCtrl as main">
+  133    683            Choose:
+  134    684            <a href="Book/Moby">Moby</a> |
+  ...
+  136    777                $locationProvider.html5Mode(true);
+  137    778            }])
+  138:   779:           .controller('MainCtrl', ['$route', '$routeParams', '$location',
+  139    780              function($route, $routeParams, $location) {
+  140    781                this.$route = $route;
+  ...
+  143   16952     <example>
+  144   16953       <file name="index.html">
+  145:  16954:        <div ng-controller="MainCtrl">
+  146   16955           <p>$document title: <b ng-bind="title"></b></p>
+  147   16956           <p>window.document title: <b ng-bind="windowTitle"></b></p>
+  ...
+  149   16958       </file>
+  150   16959       <file name="script.js">
+  151:  16960:        function MainCtrl($scope, $document) {
+  152   16961           $scope.title = $document[0].title;
+  153   16962           $scope.windowTitle = angular.element(window.document)[0].title;
+  ...
+  156      1  'use strict';
+  157      2  
+  158:     3: describe('Controller: MainCtrl', function () {
+  159      4  
+  160      5    // load the controller's module
+  161      6    beforeEach(module('accustatsBilliardAppApp'));
+  162      7  
+  163:     8:   var MainCtrl,
+  164      9      scope;
+  165     10  
+  ...
+  167     12    beforeEach(inject(function ($controller, $rootScope) {
+  168     13      scope = $rootScope.$new();
+  169:    14:     MainCtrl = $controller('MainCtrl', {
+  170     15        $scope: scope
+  171     16      });
+
+/home/venefica/accustats-billiard-app/client/bower_components/angular/angular.js:
+ 7160     <example>
+ 7161       <file name="index.html">
+ 7162:        <div ng-controller="MainCtrl">
+ 7163           <p>$document title: <b ng-bind="title"></b></p>
+ 7164           <p>window.document title: <b ng-bind="windowTitle"></b></p>
+ ....
+ 7166       </file>
+ 7167       <file name="script.js">
+ 7168:        function MainCtrl($scope, $document) {
+ 7169           $scope.title = $document[0].title;
+ 7170           $scope.windowTitle = angular.element(window.document)[0].title;
+
+/home/venefica/accustats-billiard-app/client/test/spec/controllers/main.js:
+    1  'use strict';
+    2  
+    3: describe('Controller: MainCtrl', function () {
+    4  
+    5    // load the controller's module
+    6    beforeEach(module('accustatsBilliardAppApp'));
+    7  
+    8:   var MainCtrl,
+    9      scope;
+   10  
+   ..
+   12    beforeEach(inject(function ($controller, $rootScope) {
+   13      scope = $rootScope.$new();
+   14:     MainCtrl = $controller('MainCtrl', {
+   15        $scope: scope
+   16      });
+
+43 matches across 6 files
