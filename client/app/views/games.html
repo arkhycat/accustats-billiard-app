@@ -1,0 +1,10 @@
+  <form id="new-game" ng-submit="addGame()">
+  	<input id="player1" ng-model="newGame.player1"/>
+  	<input id="player2" ng-model="newGame.player2"/>
+    <input type="submit" class="btn btn-primary" value="New game">
+  </form>
+  <div class="container-fluid pre-scrollable">
+    <ul ng-repeat="game in games track by $index" class="games-list">
+      <li>{{game.player1}} {{game.player2}}</li>
+    </ul>
+  </div>
